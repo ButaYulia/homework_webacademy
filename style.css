@@ -1,0 +1,14 @@
+ table {
+     width: 600px;
+     height: 600px;
+    border-collapse: collapse;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 40px;
+}
+
+ th {
+     border: 1px solid grey;
+ }
+ tr {
+     border: 1px solid grey;
+ }
