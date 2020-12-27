@@ -1,14 +1,91 @@
- table {
-     width: 600px;
-     height: 600px;
-    border-collapse: collapse;
-     font-family: Verdana, Arial, Helvetica, sans-serif;
-     font-size: 40px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid red
 }
 
- th {
-     border: 1px solid grey;
- }
- tr {
-     border: 1px solid grey;
- }
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+    color: #243D6F;
+}
+.right-panel {
+    width: 800px;
+    flex: 0 1 800px;
+}
+
+.central-panel{
+    flex: 1
+
+}
+.images
+{
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+}
+
+.images svg{
+   /* width: 10px;*/
+}
+.schedule {
+    display: flex;
+
+}
+
+.numbers
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #A4B0C3;
+
+}
+.numbers li{
+    margin-bottom: 90px;
+}
+.blocks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.violet {
+    height: 124px;
+    background: #C3BDED 15%;
+    margin-bottom: 120px;
+}
+.blue {
+    height: 309px;
+    margin-bottom: 179px;
+    background: #A1C2F9 15%;
+
+}
+.orange {
+    height: 245px;
+    background: #EEC3AC 15%;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    padding: 0 75px;
+}
