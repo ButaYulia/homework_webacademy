@@ -15,15 +15,30 @@
 
 }
 
-.text {
+.title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
-    /* identical to box height */
     color: #243D6F;
 }
+
+.text{
+    position: absolute;
+    width: 985px;
+    height: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #243D6F;
+
+}
+
 .right-panel {
     width: 800px;
     flex: 0 1 800px;
@@ -41,7 +56,7 @@
 }
 
 .images svg{
-   /* width: 10px;*/
+    /* width: 10px;*/
 }
 .schedule {
     display: flex;
@@ -50,7 +65,7 @@
 
 .numbers
 {
-    font-family: Roboto;
+    padding-top: 102px;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -60,6 +75,12 @@
     color: #A4B0C3;
 
 }
+
+.numbers
+{
+    font-family: Roboto;
+}
+
 .numbers li{
     margin-bottom: 90px;
 }
@@ -70,18 +91,18 @@
 }
 .violet {
     height: 124px;
-    background: #C3BDED 15%;
+    background: rgba(133, 118, 237, 0.15);
     margin-bottom: 120px;
 }
 .blue {
     height: 309px;
     margin-bottom: 179px;
-    background: #A1C2F9 15%;
+    background: rgba(61, 131, 249, 0.15);
 
 }
 .orange {
     height: 245px;
-    background: #EEC3AC 15%;
+    background: rgba(238, 165, 124, 0.15);
 }
 
 .block{
